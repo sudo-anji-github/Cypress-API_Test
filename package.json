@@ -4,7 +4,7 @@
   "description": "test apis from jenkins",
   "main": "index.js",
   "scripts": {
-    "test": "cypress run"
+    "test": "cypress run -s .\\cypress\\e2e\\api_spec.js"
   },
   "repository": {
     "type": "git",
