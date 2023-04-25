@@ -1,0 +1,23 @@
+{
+  "name": "api",
+  "version": "2.0.0",
+  "description": "test apis from jenkins",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sudo-anji-github/Cypress-API_Test.git"
+  },
+  "author": "anji",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sudo-anji-github/Cypress-API_Test/issues"
+  },
+  "homepage": "https://github.com/sudo-anji-github/Cypress-API_Test#readme",
+  "devDependencies": {
+    "cypress": "^12.10.0",
+    "cypress-cucumber-preprocessor": "^4.3.1"
+  }
+}
